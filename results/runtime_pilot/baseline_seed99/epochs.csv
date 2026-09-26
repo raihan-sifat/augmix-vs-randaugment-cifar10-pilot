@@ -1,0 +1,2 @@
+epoch,train_loss,train_accuracy,epoch_seconds,source_examples_per_second,learning_rate_next_epoch
+1,1.6839314406585693,0.36418,42.18510680000054,1185.25242183337,0.0

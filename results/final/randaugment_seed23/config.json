@@ -1,0 +1,38 @@
+{
+  "method": "randaugment",
+  "seed": 23,
+  "epochs": 50,
+  "batch_size": 128,
+  "workers": 2,
+  "optimizer": "SGD(momentum=0.9, weight_decay=0.0005)",
+  "initial_lr": 0.05,
+  "scheduler": "CosineAnnealingLR",
+  "model": "torchvision MobileNetV3-Small; first convolution stride changed to 1; classifier output changed to 10",
+  "parameters": 1528106,
+  "augmentation": {
+    "shared": "RandomCrop(32, padding=4), RandomHorizontalFlip",
+    "randaugment": "RandAugment(num_ops=2, magnitude=9)",
+    "augmix": "AugMix(severity=3, mixture_width=3, chain_depth=-1, alpha=1.0), two independent augmented views plus clean view, JSD weight=12"
+  },
+  "normalization_mean": [
+    0.4914,
+    0.4822,
+    0.4465
+  ],
+  "normalization_std": [
+    0.247,
+    0.2435,
+    0.2616
+  ],
+  "system": {
+    "python": "3.14.5",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "torch": "2.14.0+cu130",
+    "torchvision": "0.29.0+cu130",
+    "numpy": "2.5.2",
+    "device": "cuda",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce GTX 1650",
+    "gpu_total_memory_bytes": 4294639616
+  }
+}

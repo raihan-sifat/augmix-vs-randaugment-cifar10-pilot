@@ -1,0 +1,9 @@
+{
+  "run": "baseline_seed23",
+  "training_seconds_including_epoch_data_loading": 875.585010499999,
+  "training_minutes": 14.593083508333317,
+  "source_examples_per_second_overall": 2855.233895075917,
+  "peak_cuda_memory_allocated_bytes": 205514240,
+  "final_epoch_train_accuracy": 0.88768,
+  "parameter_count": 1528106
+}

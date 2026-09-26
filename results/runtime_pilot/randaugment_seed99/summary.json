@@ -1,0 +1,9 @@
+{
+  "run": "randaugment_seed99",
+  "training_seconds_including_epoch_data_loading": 20.860342500000115,
+  "training_minutes": 0.3476723750000019,
+  "source_examples_per_second_overall": 2396.892572593174,
+  "peak_cuda_memory_allocated_bytes": 205514240,
+  "final_epoch_train_accuracy": 0.30854,
+  "parameter_count": 1528106
+}

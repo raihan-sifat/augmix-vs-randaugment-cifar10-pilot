@@ -1,0 +1,28 @@
+# Datasets - licence forbids redistribution (CIFAR-10 / CIFAR-10-C).
+# Download instructions and the verified MD5 are in README.md.
+data/
+
+# Project-local virtual environment
+.venv/
+venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Model checkpoints (~6 MB each, already archived on Zenodo)
+*.pt
+*.pth
+*.ckpt
+
+# Release archives - published on Zenodo, DOI 10.5281/zenodo.22961521
+zenodo_reproducibility.zip
+
+# Rendered from paper_draft.md by src/render_paper.py
+paper_draft.html
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

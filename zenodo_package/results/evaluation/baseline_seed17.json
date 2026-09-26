@@ -1,0 +1,11 @@
+{
+  "run": "baseline_seed17",
+  "cifar10_clean_accuracy": 0.8621,
+  "cifar10c_mean_accuracy": 0.6819333333333334,
+  "cifar10c_corruption_types": 15,
+  "severity_1_mean": 0.80162,
+  "severity_2_mean": 0.7497333333333334,
+  "severity_3_mean": 0.6941266666666667,
+  "severity_4_mean": 0.6251533333333333,
+  "severity_5_mean": 0.5390333333333335
+}

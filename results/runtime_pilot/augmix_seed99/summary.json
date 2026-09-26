@@ -1,0 +1,9 @@
+{
+  "run": "augmix_seed99",
+  "training_seconds_including_epoch_data_loading": 89.85816750000049,
+  "training_minutes": 1.497636125000008,
+  "source_examples_per_second_overall": 556.4324467222161,
+  "peak_cuda_memory_allocated_bytes": 555347456,
+  "final_epoch_train_accuracy": 0.35926,
+  "parameter_count": 1528106
+}

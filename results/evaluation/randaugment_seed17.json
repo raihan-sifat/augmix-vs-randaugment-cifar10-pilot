@@ -1,0 +1,11 @@
+{
+  "run": "randaugment_seed17",
+  "cifar10_clean_accuracy": 0.8676,
+  "cifar10c_mean_accuracy": 0.709508,
+  "cifar10c_corruption_types": 15,
+  "severity_1_mean": 0.8186133333333333,
+  "severity_2_mean": 0.7761133333333334,
+  "severity_3_mean": 0.7266866666666668,
+  "severity_4_mean": 0.66038,
+  "severity_5_mean": 0.5657466666666667
+}
