@@ -1,6 +1,18 @@
 # CIFAR-10 Augmentation Pilot
 
-This repository contains the short-deadline experimental pilot described in [pilot_protocol.md](pilot_protocol.md), the long-term research plan, and the current paper draft. The study compares crop/flip, RandAugment, and AugMix with one CIFAR-adapted MobileNetV3-Small.
+This project investigates whether different image augmentation techniques can help an image classification model become more accurate and more robust. It uses **CIFAR-10**, a dataset of images from 10 categories, including cars, cats, dogs, and airplanes.
+
+In simple terms, **image augmentation** creates different versions of training images to help a model recognize objects even when their appearance changes. This study compares three approaches:
+
+- **Basic transformations (baseline):** Randomly crop and horizontally flip training images.
+- **RandAugment:** Apply a randomly selected combination of image transformations.
+- **AugMix:** Mix several augmented versions of an image with the original image.
+
+All three approaches use the same **MobileNetV3-Small** model, adapted for CIFAR-10, to keep the comparison fair. The evaluation measures accuracy on normal images and on **corrupted images**, such as images affected by blur or noise, using CIFAR-10-C.
+
+The main question is: **Which augmentation technique helps the model stay accurate when images are corrupted, and how much training time does it cost?**
+
+This repository contains the experimental pilot described in [pilot_protocol.md](pilot_protocol.md), the long-term research plan, and the current paper draft. The sections below explain the environment, training, and evaluation steps.
 
 ## Environment
 
